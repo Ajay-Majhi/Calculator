@@ -11,8 +11,10 @@ To set up buildozer and other commands, paste into the cell and press the play i
 
 
 # Buildozer Setup
-!pip install buildozer
-!pip install cython==0.29.19
+!pip install buildozer<br />
+
+!pip install cython==0.29.19<br />
+
 !apt install -y \
     python3-pip \
     build-essential \
@@ -28,15 +30,21 @@ To set up buildozer and other commands, paste into the cell and press the play i
     libswscale-dev \
     libavformat-dev \
     libavcodec-dev \
-    zlib1g-dev
+    zlib1g-dev<br />
+    
+   
 !apt install -y \
     libgstreamer1.0 \
     gstreamer1.0-plugins-base \
-    gstreamer1.0-plugins-good
-!apt install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev openssl libgdbm-dev libgdbm-compat-dev liblzma-dev libreadline-dev libncursesw5-dev libffi-dev uuid-dev libffi6
-!apt install libffi-dev
-!pip install kivy
-!apt install ldd
+    gstreamer1.0-plugins-good<br />
+    
+!apt install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev openssl libgdbm-dev libgdbm-compat-dev liblzma-dev libreadline-dev libncursesw5-dev libffi-dev uuid-dev libffi6<br />
+
+!apt install libffi-dev<br />
+
+!pip install kivy<br />
+
+!apt install ldd<br />
 
 **Then upload your files to the files page (make sure your file name should be main.py)
 
@@ -55,6 +63,7 @@ Finally, make a new cell and run !buildozer -v android debug and wait for it to 
 When done, refresh the file page again and then navigate to the bin directory that should now appear, press on the three dots of your apk, and press download
 
 # Refer this link
-https://colab.research.google.com/drive/1hy-dVgrgEORT9mD4N83EET5oVsPfokj2#scrollTo=2eXoKdBCEfPP
+https://colab.research.google.com/drive/1hy-dVgrgEORT9mD4N83EET5oVsPfokj2?usp=sharing
+
 
 
